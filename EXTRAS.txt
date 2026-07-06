@@ -1,0 +1,22 @@
+Arreglos — sugerencias adicionales
+- ¿Qué métodos mutan el arreglo original y cuáles no? (ej. push/pop vs map/filter)
+- ¿Cómo funciona push, pop, shift, unshift, splice?
+- ¿Cuál es la diferencia entre map y forEach?
+- ¿Cómo se usa el operador spread (...) para copiar o combinar arreglos?
+- ¿Cómo se usa destructuring en arreglos? (ej. const [a, b] = [1, 2])
+- ¿Qué hace Array.isArray()?
+- ¿Cómo se ordena un arreglo con sort() y por qué ordena alfabéticamente por defecto?
+- ¿Cómo funcionan los arreglos multidimensionales?
+- ¿Qué hace slice() y en qué se diferencia de splice()?
+Objetos — sugerencias adicionales
+- ¿Cómo se usa el operador spread (...) para copiar o combinar objetos?
+- ¿Cómo funciona el destructuring en objetos? (ej. const { nombre, edad } = persona)
+- ¿Qué son Object.freeze() y Object.seal()?
+- ¿Cómo se verifica si un objeto tiene una propiedad? (hasOwnProperty, in)
+- ¿Qué es el optional chaining (?.) y cómo evita errores?
+- ¿Qué son las computed property names? (ej. { [key]: value })
+- ¿Cómo se usa for...in vs for...of para recorrer objetos?
+Generales
+- ¿Qué son los template literals? ( `${variable}` )
+- ¿Cómo funcionan los parámetros por defecto en funciones?
+- ¿Qué son los parámetros rest (...args) y cómo se usan?
