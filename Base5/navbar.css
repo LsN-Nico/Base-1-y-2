@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box; 
+}
+
+.nav-enlaces {
+  display: inline-block;
+  background: salmon;
+  color: #fff;
+
+  padding: 10px 30px;        
+  border: 2px solid #7a1f1f;  
+  margin: 0 8px;               
+  border-radius: 6px;          
+
+  text-decoration: none;
+}
+
+.nav-enlaces:hover {
+  background: rosybrown;
+  border-color: #4a1212; 
+}
+
+nav {
+  background: #2f9097;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.nav1 {
+  flex-direction: column;
+  justify-content: space-around;
+}
+.nav2 {
+  display: grid;
+  background: #593dd6;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+ /*grid-template-rows: repeat(2, 60px);    */
+
+  row-gap: 15px;     /* espacio vertical entre filas */
+  column-gap: 25px;  /* espacio horizontal entre columnas */
+  /* gap: 15px 25px; esto sería el equivalente a las 2 líneas de arriba */
+  justify-items: center;
+  align-items: center;
+}
+
